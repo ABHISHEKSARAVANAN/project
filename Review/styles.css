@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif ;
+}
+nav{
+        display: flex;
+        justify-content: space-between;
+        background: #24262b;
+        height: 50px;
+    }
+nav img{
+
+    width: 150px;
+    height: 150px;
+}
+nav a{
+    margin-top: 15px; text-decoration: none;color:white;font-weight:bold;
+}
+nav a:hover ,nav a:focus,nav a:active{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.log-and-cart{
+    margin-top: 7px;
+    width: 100px;
+    height: 50px;
+}
+
+.container{
+    display:block;
+    width: 100%;
+    height: auto;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-left: 150px;   
+}
+.product{
+    padding-top: 10px;
+    height: 300px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+    margin-left: 20px;
+    background-color: #bbbbbb;
+}
+.product:hover,.product:active,.product:focus{
+    box-shadow:0 0 20px rgb(0, 0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.product img{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+}
+.add-to-cart{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color:black;
+    color: white;
+    border: 2px solid wheat;
+}
+.add-to-cart:hover,.add-to-cart:focus,.add-to-cart:active{
+    box-shadow:0 0 10px rgb(0, 0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.container2{
+    display:flex;
+    width: 1400px;
+    height: 550px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-left: 270px;  
+    background-color: #bbbbbb; 
+    border-radius: 20px;
+}
+.carousel-item{
+ height: 500px;
+}
+.carousel-item img{
+    height: 440px;
+    width: 1000px;
+    border-radius: 20px;
+    
+}
+.middle{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1000px;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+
+}
+.inner-right li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.inner-right li:hover,.inner-right li:focus,.inner-right li:active{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.inner-right{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.925);
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    height:485px ;
+    font-weight: 400;
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.footer-container{
+    max-width: 1170px;
+    margin:auto;
+}
+.lower-grid .box{
+  margin-top: 5px;
+}
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer ul{
+    list-style: none;
+}
+.footer{
+  
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
